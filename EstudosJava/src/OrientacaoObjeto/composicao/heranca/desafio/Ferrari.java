@@ -10,4 +10,12 @@ public class Ferrari extends Carro{
 		}
 		
 	}
+	
+	@Override 
+	public void frear() {
+		if(velocidadeAtual < limiteVelocidade) {
+			velocidadeAtual += 15;
+		}
+		
+	}
 }
